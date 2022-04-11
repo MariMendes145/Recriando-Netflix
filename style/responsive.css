@@ -1,0 +1,39 @@
+@media screen and (max-width: 828px){
+    header .container{
+    display:flex;
+    flex-direction:column;
+    }
+    
+    header .logo{
+        font-size: 25px;
+    }
+
+    .serie-principal .container{
+        width: 70%;
+    }
+
+    .serie-principal .titulo{
+        font-size: 25px;
+        margin-top: 18vh;
+    }
+    
+
+    .descricao{
+        font-size: 16px;
+        text-shadow: 3px 1px 3px rgb(0, 0, 0);
+        margin-top: 15vh;
+    }
+    
+    .botao{
+        margin: 5px 0px 0px 0px;
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and(min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
